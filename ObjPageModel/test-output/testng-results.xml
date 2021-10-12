@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-10-06T18:54:40 IST" name="Default suite" finished-at="2021-10-06T18:54:57 IST" duration-ms="17144">
+    <groups>
+    </groups>
+    <test started-at="2021-10-06T18:54:40 IST" name="Default test" finished-at="2021-10-06T18:54:57 IST" duration-ms="17144">
+      <class name="PageModel.PomRunner">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:PageModel.PomRunner@4dbb42b7]" started-at="2021-10-06T18:54:40 IST" name="beforeMethod" finished-at="2021-10-06T18:54:42 IST" duration-ms="1609" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="forgetLinkTest()[pri:1, instance:PageModel.PomRunner@4dbb42b7]" started-at="2021-10-06T18:54:42 IST" name="forgetLinkTest" finished-at="2021-10-06T18:54:46 IST" duration-ms="4496" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- forgetLinkTest -->
+        <test-method signature="cancelButtonTest()[pri:0, instance:PageModel.PomRunner@4dbb42b7]" started-at="2021-10-06T18:54:46 IST" name="cancelButtonTest" finished-at="2021-10-06T18:54:47 IST" depends-on-methods="PageModel.PomRunner.forgetLinkTest" duration-ms="874" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cancelButtonTest -->
+        <test-method signature="doLoginTest()[pri:0, instance:PageModel.PomRunner@4dbb42b7]" started-at="2021-10-06T18:54:47 IST" name="doLoginTest" finished-at="2021-10-06T18:54:53 IST" depends-on-methods="PageModel.PomRunner.cancelButtonTest" duration-ms="5985" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLoginTest -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:PageModel.PomRunner@4dbb42b7]" started-at="2021-10-06T18:54:53 IST" name="afterMethod" finished-at="2021-10-06T18:54:57 IST" duration-ms="4132" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- PageModel.PomRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
